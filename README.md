@@ -4,9 +4,7 @@
 
 **Web Tin Tức** là dự án website tin tức được xây dựng bằng **Laravel Framework** theo mô hình **MVC (Model - View - Controller)**.  
 Hệ thống cho phép người dùng xem tin tức, phân loại bài viết theo danh mục và quản trị nội dung thông qua trang admin.
-
 ---
-
 ## 🚀 Công nghệ sử dụng
 
 - PHP
@@ -15,19 +13,14 @@ Hệ thống cho phép người dùng xem tin tức, phân loại bài viết th
 - HTML / CSS / JavaScript
 - Bootstrap
 - Blade Template Engine
-
 ---
-
 ## 🏗️ Mô hình hệ thống
-
 Dự án được xây dựng theo mô hình:
-
 MVC
 ├── Model       -> Xử lý dữ liệu
 ├── View        -> Giao diện người dùng
 └── Controller  -> Xử lý logic
 ---
-
 📂 Cấu trúc thư mục
 Webtintuclaravel/
 ├── app/                 # Chứa Controller, Model, Middleware
@@ -54,7 +47,6 @@ Webtintuclaravel/
 └── webtintuc.sql        # File cơ sở dữ liệu MySQL
 
 ⚙️ Chức năng chính
-
 👤 Người dùng
  • Xem danh sách tin tức
  • Xem chi tiết bài viết
@@ -68,11 +60,8 @@ Webtintuclaravel/
  • Xóa bài viết
  • Quản lý danh mục
  • Quản lý tài khoản
-
 ⸻
-
 🗄️ Cơ sở dữ liệu
-
 Các bảng chính:
  • users
  • tintuc
@@ -84,9 +73,7 @@ Các bảng chính:
  • Bảo mật tốt
  • Dễ quản lý dữ liệu
  • Giao diện thân thiện
-
 ⸻
-
 📚 Kiến thức áp dụng
  • Laravel Routing
  • Controller
