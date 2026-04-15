@@ -22,7 +22,6 @@ Hệ thống cho phép người dùng xem tin tức, phân loại bài viết th
 
 Dự án được xây dựng theo mô hình:
 
-```text
 MVC
 ├── Model       -> Xử lý dữ liệu
 ├── View        -> Giao diện người dùng
@@ -30,28 +29,29 @@ MVC
 ---
 
 📂 Cấu trúc thư mục
-Website_tintuc/
+Webtintuclaravel/
 ├── app/                 # Chứa Controller, Model, Middleware
-├── bootstrap/          # Khởi động framework Laravel
-├── config/             # File cấu hình hệ thống
-├── database/           # Migration, Seeder, Factory
-├── lang/en/            # File ngôn ngữ tiếng Anh
-├── public/             # Thư mục chạy web, chứa index.php, css, js, images
-├── resources/          # View Blade, file giao diện, assets gốc
-├── routes/             # Khai báo route web, api
-├── storage/            # Log, cache, upload file
-├── tests/              # Unit Test / Feature Test
+├── bootstrap/           # Khởi động framework Laravel
+├── config/              # File cấu hình hệ thống
+├── database/            # Migration, Seeder, Factory
+├── lang/en/             # File ngôn ngữ tiếng Anh
+├── public/              # Thư mục public chạy website
+├── resources/           # View Blade, CSS, JS, assets
+├── routes/              # Định tuyến web, api
+├── storage/             # Log, cache, upload
+├── tests/               # Kiểm thử hệ thống
 
-├── .editorconfig       # Chuẩn format code
-├── .env.example        # File cấu hình mẫu môi trường
-├── .gitattributes      # Cấu hình Git attributes
-├── .gitignore          # File bỏ qua khi push GitHub
-├── README.md           # Tài liệu dự án
-├── artisan             # Command line Laravel
-├── composer.json       # Khai báo package PHP
-├── composer.lock       # Phiên bản package đã cài
-├── package.json        # Package frontend npm
-└── phpunit.xml         # Cấu hình kiểm thử PHPUnit
+├── .editorconfig        # Chuẩn định dạng code
+├── .env.example         # File cấu hình mẫu
+├── .gitattributes       # Cấu hình Git
+├── .gitignore           # File bỏ qua khi push GitHub
+├── artisan              # Công cụ dòng lệnh Laravel
+├── composer.json        # Danh sách package PHP
+├── composer.lock        # Phiên bản package đã cài
+├── package.json         # Package frontend npm
+├── phpunit.xml          # Cấu hình PHPUnit
+├── README.md            # File mô tả dự án
+└── webtintuc.sql        # File cơ sở dữ liệu MySQL
 
 ⚙️ Chức năng chính
 
